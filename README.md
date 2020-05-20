@@ -2,20 +2,31 @@
 git-use
 깃 설치
 1. window
+
 https://gitforwindows.org/
+
 2. Linux
+
 sudo dnf install git-all
+
 3. ubuntu
+
 sudo apt install git-all
 
 깃 최초 설정
-$ git config --global user.name "성명"
-$ git config --global user.email "깃 이메일"(123456@naver.com 이면 12345로 이메일 작성)
+
+git config --global user.name "성명"
+
+git config --global user.email "깃 이메일"(123456@naver.com 이면 12345로 이메일 작성)
+
 ex) git config --global user.email "12345"
 
 깃 설정 후 
+
 git remote add origin "주소" 입력 후 
+
 fatal: remote origin already exists. 오류 이면 상단의 깃 최초 설정이 잘못됨.
+
 git remote rm origin 입력 후 다시 깃 최초 설정
 
 깃 자주 사용하는 명령어
