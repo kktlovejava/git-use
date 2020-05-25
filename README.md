@@ -41,6 +41,8 @@ git push origin master  - 원격으로 보내기
 
 git remote add origin {원격서버주소} - 원격 저장소 추가
 
+git status - 변경사항 확인
+
 git log - 모든 커밋로그 확인
 
 git log -3 - 최근 3개 커밋로그 확인
